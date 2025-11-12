@@ -26,4 +26,7 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 - Create models to visualize and understand the requirements.
 5. Requirement Validation
 - Review and validate the requirements with stakeholders.
+
 - Define acceptance criteria and ensure traceability.
+
+  <img width="821" height="441" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/8b742414-085b-48e5-95d9-0b818462a22d" />
