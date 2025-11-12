@@ -54,7 +54,9 @@ Reliability: The system should have an uptime of 99.9% and recover quickly from 
 
 # Use case diagram
 
-  <img width="821" height="441" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/8b742414-085b-48e5-95d9-0b818462a22d" />
+  <img width="821" height="441" alt="alx-booking-uc<img width="821" height="441" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/840fb0a6-19ec-4fb2-b204-77179f1426e6" />
+" src="https://github.com/user-attachments/assets/8b742414-085b-48e5-95d9-0b818462a22d" />
+  
 
 # Acceptance criteria
 
@@ -104,5 +106,6 @@ Acceptance Criteria:
 ✅ The system must update the booking status to “Confirmed” only after successful payment.
 
 ✅ Booking details should be saved in the user’s booking history for future reference.
+
 
 
