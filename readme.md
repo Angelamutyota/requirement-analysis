@@ -29,4 +29,56 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 
 - Define acceptance criteria and ensure traceability.
 
+# Use case diagram
+
   <img width="821" height="441" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/8b742414-085b-48e5-95d9-0b818462a22d" />
+
+# Acceptance criteria
+
+Acceptance criteria are the specific conditions that a software product or feature must meet for it to be accepted by the client, user, or stakeholders. They act as a bridge between the requirements phase and the testing/validation phase, ensuring that what’s delivered actually satisfies the user’s needs and expectations.
+
+Here’s why they’re important during requirement analysis:
+
+Clarify Scope and Expectations
+Acceptance criteria prevent ambiguity by defining exactly what is included — and excluded — from a feature. This ensures that both developers and stakeholders share a common understanding of what “done” looks like.
+
+Guide Development and Design
+Developers use acceptance criteria to understand functional expectations and constraints before implementation. It helps them make design decisions aligned with user goals.
+
+Enable Testable Requirements
+Well-written acceptance criteria can be directly converted into test cases, making it easier for QA teams to verify functionality against clear, measurable outcomes.
+
+Reduce Rework and Miscommunication
+By aligning expectations early, teams avoid costly misunderstandings, scope creep, and post-development revisions.
+
+Support Agile Processes
+In agile development, acceptance criteria define the Definition of Done (DoD) for user stories, ensuring that each sprint delivers potentially shippable, validated functionality.
+
+🛒 Example: Acceptance Criteria for a “Checkout” Feature
+
+(in a Booking Management System)
+
+User Story:
+
+As a registered user, I want to complete a booking checkout so that I can confirm and pay for my reservation securely.
+
+Acceptance Criteria:
+
+✅ The user must be logged in to access the checkout page.
+
+✅ The checkout page must display a summary of the selected booking (property name, dates, total cost, and guest details).
+
+✅ The user can select or edit their payment method before confirming the booking.
+
+✅ The system must validate payment details before processing.
+
+✅ Upon successful payment, the system should generate a booking confirmation with a unique booking ID.
+
+✅ A confirmation email should be sent automatically to the user’s registered email address.
+
+✅ If payment fails, the user should receive a clear error message and be allowed to retry.
+
+✅ The system must update the booking status to “Confirmed” only after successful payment.
+
+✅ Booking details should be saved in the user’s booking history for future reference.
+
